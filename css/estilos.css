@@ -2,11 +2,10 @@
 box-sizing: border-box;
 }
 
-
 body{
 margin: 0;
 background-color: white;
-font-family: 'Poppins' ,sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 
 .container{
@@ -14,14 +13,68 @@ font-family: 'Poppins' ,sans-serif;
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
-
 }
 header{
     height: 100vh;
-    background-color: aqua
+    background-image:linear-gradient(rgba(8, 220, 192, 0.9)
+    ,rgba(10, 32, 235, 0.527)), 
+    url(../images/background-home.jpg);
+    background-size: cover;
 }
 
 .container-menu{
 display: flex;
 justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size:30px; 
+}
+
+nav{
+display: flex;
+align-items: center;
+}
+
+nav ul {
+display: flex;
+justify-content: space-between;
+list-style: none;
+}
+
+nav ul li{
+    margin-left: 40px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.container-title{
+margin: 23vh 0;
+display:flex;
+justify-content: center;
+color: white;
+text-align: center;
+}
+
+.container-title h1{
+font-size: 50px;
+margin: 0;
+}
+.container-title h2{
+font-size: 25px;
+padding-bottom: 20px;
+}
+.container-title a{
+    
+    font-size: 20px;
+    width: 200px;
+    text-decoration: none;
+    background-color: rgba(8, 220, 192, 0.9);
+    padding: .5em .7em;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
 }
