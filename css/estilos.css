@@ -26,89 +26,142 @@ header{
     url(../images/background-home.jpg);
     background-size: cover;
 }
-
 .container-menu{
-display: flex;
-justify-content: space-between;
-}
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .logo{
+        color: white;
+        font-family: 'Righteous', cursive;
+        font-size:30px; 
+    }
 
-.logo{
+    
+    nav{
+    display: flex;
+    align-items: center;
+    }
+    
+    nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    }
+    
+    nav ul li{
+        margin-left: 40px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 19px;
+    }
+    
+    .container-title{
+    margin: 23vh 0;
+    display:flex;
+    justify-content: center;
     color: white;
-    font-family: 'Righteous', cursive;
-    font-size:30px; 
-}
-
-nav{
-display: flex;
-align-items: center;
-}
-
-nav ul {
-display: flex;
-justify-content: space-between;
-list-style: none;
-}
-
-nav ul li{
-    margin-left: 40px;
-    color: #fff;
-    font-weight: 500;
-    font-size: 19px;
-}
-
-.container-title{
-margin: 23vh 0;
-display:flex;
-justify-content: center;
-color: white;
-text-align: center;
-}
-
-.container-title h1{
-font-size: 50px;
-margin: 0;
-
-}
-.container-title h2{
-font-size: 28px;
-padding-bottom: 20px;
-letter-spacing: 2px;
-font-weight: normal;
-}
-.btn-primary{ 
-    font-size: 20px;
-    width: 200px;
-    text-decoration: none;
-    background-color: var(--color-primary);
-    padding: .5em .7em;
-    border-radius: 5px;
-    color: white;
-    box-shadow: 4px 6px 14px -7px #111a0e;
-}
-.btn-primary:active {
-	position:relative;
-	top:1px;
-}
-
-#about h1{
-text-align: center;
-font-size: 2.8em;
-
-}
-#about img{
-width: 378px;
-}
-
-.contain{
-display: flex;
-justify-content: space-around;
-}
-.about-text{
-width: 42%;
-line-height: 30px;
-
-}
-.about-text .btn-primary{
-display: block;
-margin: 50px auto;
-}
+    text-align: center;
+    }
+    
+    .container-title h1{
+    font-size: 50px;
+    margin: 0;
+    
+    }
+    .container-title h2{
+        font-size: 28px;
+        padding-bottom: 20px;
+        letter-spacing: 2px;
+        font-weight: normal;
+    }
+    .btn-primary{ 
+        font-size: 20px;
+        width: 200px;
+        text-decoration: none;
+        background-color: var(--color-primary);
+        padding: .5em .7em;
+        border-radius: 5px;
+        color: white;
+        box-shadow: 4px 6px 14px -7px #111a0e;
+    }
+    .btn-primary:active {
+        position:relative;
+        top:1px;
+    }
+    
+    #about h1{
+        text-align: center;
+        font-size: 2.8em;
+        
+        }
+        #about img{
+        width: 378px;
+        }
+        
+        .contain{
+        display: flex;
+        justify-content: space-around;
+        }
+        .about-text{
+            width: 42%;
+            line-height: 30px;
+        
+        }
+        .about-text .btn-primary{
+            display: block;
+            margin: 50px auto;
+        }
+        #services h3{
+            text-align: center;
+            font-size: 2.8em;
+        }
+        
+        .container-services .violet{
+        background-image: linear-gradient(to top, #0b6075,#1076d6);
+        box-shadow: 0 12px 30px 0 rgba(80,85,223,.37);
+        
+        }
+        .container-services .blue{
+            background-image: linear-gradient(to top, #141655,#0f254e);
+            box-shadow: 0 12px 30px 0 rgba(17, 24, 235, 0.37);
+        }
+        .container-services{
+            display: flex;
+            flex-wrap: wrap;
+            color: white;
+            justify-content: space-around;
+        }
+        
+        .container-services .services{
+            padding: 34px 30px 38px 30px;
+            border-radius: 10px;
+            width: 29%;
+            margin-bottom: 40px;
+            margin-left: 30px;
+            position: relative;
+        
+        }
+        
+        .container-services h4{
+        font-size: 28px;
+        margin: 0;
+        }
+        .container-services p{
+            opacity: .8;
+            margin: 0; 
+            margin-top: 20px;
+            height: 206px;
+            }
+        .container-services .icon{
+            margin-top: 5px;
+            float:right;
+            position: relative;
+            
+        }
+        .container-services .waves{
+            position: absolute;
+            width: 100%;
+            left: 0;
+            bottom: 0;
+        }
