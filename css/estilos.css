@@ -165,3 +165,32 @@ header{
             left: 0;
             bottom: 0;
         }
+        #works h3{
+            text-align: center;
+            font-size: 2.8em;}
+.owl-theme .owl-dots{
+    display: none;
+}
+
+.work.item p{
+text-align: center;
+font-size: 1.5em;
+
+}
+    .owl-theme .owl-nav {
+        margin-top: 0px!important;
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        
+       font-size: 5em!important;
+    }
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot { 
+        margin: 0 14px!important;
+    }
+    .owl-theme .owl-nav [class*=owl-]:hover {
+        background: #ffffff!important;
+        color: #000!important;
+      text-decoration: none!important;
+    }
+    
