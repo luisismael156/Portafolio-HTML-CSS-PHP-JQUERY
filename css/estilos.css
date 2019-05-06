@@ -211,3 +211,22 @@ justify-content: space-around;
 
     list-style: none;
 }
+
+#wordpress h3{
+font-size: 2.8em;
+text-align: center;
+}
+#wordpress p{
+    text-align: center;  
+    }
+.container-wordpress{
+    display: flex;
+    align-items: center;
+}
+.wordpress-text {
+width: 40%;
+margin: auto;
+} 
+.wordpress-text ul {
+   line-height: 2.5em;
+    } 
