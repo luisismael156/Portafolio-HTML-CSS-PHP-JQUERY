@@ -193,4 +193,21 @@ font-size: 1.5em;
         color: #000!important;
       text-decoration: none!important;
     }
-    
+
+#trabajar-conmigo h3{
+font-size: 2.8em;
+text-align:center;
+}
+.container-working{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.container-working .item{
+    width: 26%;
+    text-align: center;
+}
+.container-working ul li{
+
+    list-style: none;
+}
