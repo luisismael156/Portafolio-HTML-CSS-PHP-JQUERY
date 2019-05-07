@@ -206,6 +206,7 @@ justify-content: space-around;
 .container-working .item{
     width: 26%;
     text-align: center;
+    line-height: 30px;
 }
 .container-working ul li{
 
@@ -229,4 +230,194 @@ margin: auto;
 } 
 .wordpress-text ul {
    line-height: 2.5em;
-    } 
+    }
+#hosting h3{
+    font-size: 2.8em;
+    text-align: center;
+
+}  
+#hosting .container>p{
+    text-align: center;  
+   width: 70%;
+   margin: 0 auto;
+   margin-bottom: 42px;
+   line-height: 30px;
+   
+    }
+    .container-information {
+
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 95%; 
+        line-height: 30px;
+
+        
+    }
+    .container-information ul{
+
+        list-style: none;
+    }
+    .container-information .icon img{
+
+        vertical-align: middle;
+        padding-right: 5px;
+
+    }
+    .container-information .icon{
+        line-height: 3em;
+    }
+    
+.container-blog{
+    display: flex;
+    justify-content: space-around;
+}
+#blog{
+background-color: #F9FAFC;
+}
+.blog-single{
+width: 400px;
+box-shadow: 1px 1px 14px #ccc
+}
+.blog-single img{
+    width: 100%;
+    }
+
+    #blog h3{
+
+        font-size: 2.8em;
+    text-align: center;
+    }
+.container-blog h4{
+font-weight: 600;
+font-size: 23px;
+margin-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
+
+}
+.blog-text p{
+    color: #5a6169;
+    line-height: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+.blog-text .btn-primary{
+
+display: inline-block;
+margin-top: 5px;
+margin-bottom: 19px;
+text-align: center;
+width: 42%;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+.remarketing{
+height: 281px;
+
+}
+#cta{
+    margin-top: 50px;
+
+    background-image:linear-gradient(rgba(8, 220, 192, 0.9)
+    ,rgba(10, 32, 235, 0.527));
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+#cta a{
+display: inline-block;
+text-align: center;
+margin-top: 20px;
+}
+
+.title-contacto{
+    font-size: 2.8em;
+    text-align: center;
+}
+#contacto .form{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 77%;
+margin: auto;
+
+
+}
+.message{
+padding: 18px 0;
+border: 0;
+border-bottom: 1px solid #5cb8ff;
+font-size: 17px;
+color: #212121;
+width: 100%;
+margin-bottom: 40px;
+height: 75px;
+font-family: 'Poppins', sans-serif;
+}
+
+input[type="text"],input[type="email"]{
+
+width: 49%;
+margin-bottom: 15px;
+padding: 18px 0;
+border: 0;
+border-bottom: 1px solid #5cb8ff;
+font-size: 17px;
+color: #212121;
+font-family: 'Poppins', sans-serif;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,.message:focus{
+outline: none;
+border-bottom: 1px solid #0387d1;
+}
+input[type="submit"]{
+width: 175px;
+border-radius: 5px;
+padding: 15px 0px;
+background-color: #5cb8ff;
+color: #fff;
+font-size: 14px;
+box-shadow: 0 12px 12px 0 rgba(41,45,172,.18);
+display: inline-block;
+border: 0;
+margin: 0 auto;
+font-weight: 600;
+cursor: pointer;
+text-align: center;
+}
+.sucess{
+color: #fff;
+background: #44BE75;
+padding: 15px 50px;
+margin-bottom: 20px;
+position:fixed;
+top: 90%;
+left: 80%;
+display: none;
+
+}
+.contacto-info{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.contacto-info img{
+    vertical-align: middle;
+    padding-right: 10px;
+    width: 19%;
+}
+#contacto h3{
+
+    text-align: center;
+    width: 54%;
+    margin: 0 auto;
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

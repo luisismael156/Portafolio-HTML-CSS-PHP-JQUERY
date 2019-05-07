@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins|Righteous" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
     <link href="js/ow/owl.carousel.min.css" rel="stylesheet">
     <link href="js/ow/owl.theme.default.min.css" rel="stylesheet">
 
@@ -81,7 +84,7 @@
                             importancia del diseño es fundamental para tener éxito y atraer a tus visitantes. También lo
                             es la velocidad de carga del sitio web, deben ser rápidos para que el visitante tenga la
                             mejor experiencia</p>
-                        <div class="icon"><img src="/images/icons/monitor.png"></div>
+                        <div class="icon"><img src="images/icons/monitor.png"></div>
                         <img src="images/waves.png" class="waves">
                     </div>
                     <div class="services blue">
@@ -90,7 +93,7 @@
                             electrónicos, notebooks, PCs, etc. La tecnología móvil es el presente y el futuro. Para eso
                             es importante y me aseguro de que tu sitio web sea compatible con todos los tamaños de
                             pantalla de esta época moderna</p>
-                        <div class="icon"><img src="/images/icons/celular.png"></div>
+                        <div class="icon"><img src="images/icons/celular.png"></div>
                         <img src="images/waves.png" class="waves">
                     </div>
                     <div class="services violet">
@@ -100,7 +103,7 @@
                             tenga una clasificación más alta en los resultados de Google y asi generar mas tráfico a la
                             web
                         </p>
-                        <div class="icon"><img src="/images/icons/seo.png"></div>
+                        <div class="icon"><img src="images/icons/seo.png"></div>
                         <img src="images/waves.png" class="waves">
                     </div>
                     <div class="services blue">
@@ -109,7 +112,7 @@
                             cualquier momento. Desarrollo sistemas de gestión de contenido que te permiten ver los datos
                             de tu página web y editar el contenido que quieras, lo que te permite mantenerte actualizado
                         </p>
-                        <div class="icon"><img src="/images/icons/wordpress.png"></div>
+                        <div class="icon"><img src="images/icons/wordpress.png"></div>
                         <img src="images/waves.png" class="waves">
                     </div>
                     <div class="services violet">
@@ -118,7 +121,7 @@
                             cambio que necesites. Esto es perfecto para los sitios web de pequeñas empresas, donde no se
                             necesita un diseñador de páginas web a tiempo completo, sino solo en distintas ocasiones
                         </p>
-                        <div class="icon"><img src="/images/icons/mante.png"></div>
+                        <div class="icon"><img src="images/icons/mante.png"></div>
                         <img src="images/waves.png" class="waves">
                     </div>
                     <div class="services blue">
@@ -127,7 +130,7 @@
                             negocio aparezca en los resultados de búsqueda de Google justo cuando alguien te necesita y
                             analizar como los usuarios interactúan con tu página web
                         </p>
-                        <div class="icon"><img src="/images/icons/marketing.png"></div>
+                        <div class="icon"><img src="images/icons/marketing.png"></div>
                         <img src="images/waves.png" class="waves">
                     </div>
                 </div>
@@ -210,7 +213,7 @@
                     </div>
                 </div>
 
-                </class>
+</div>
         </section>
         <section id="wordpress">
             <div class="container">
@@ -221,25 +224,151 @@
                         <img src="images/wordpress2.png" alt="">
                     </div>
                     <div class="wordpress-text">
-                            <ul>
-                                <li>Wordpress es 100% personalizado
-                                </li>
-                                <li>Facilidad para agregar funcionalidades extras
-                                </li>
-                                <li>Está hecho para el SEO (Posicionamiento en Google)
-                                </li>
-                                <li>Infinidad de plantillas premium para elegir
-                                </li>
-                                <li>Seguridad. Wordpress se va actualizando constantemente para prevenir hackeos
-                                </li>
-                                <li>Fácil de usar
-                                </li>
-                            </ul>
-                        </div>
+                        <ul>
+                            <li>Wordpress es 100% personalizado
+                            </li>
+                            <li>Facilidad para agregar funcionalidades extras
+                            </li>
+                            <li>Está hecho para el SEO (Posicionamiento en Google)
+                            </li>
+                            <li>Infinidad de plantillas premium para elegir
+                            </li>
+                            <li>Seguridad. Wordpress se va actualizando constantemente para prevenir hackeos
+                            </li>
+                            <li>Fácil de usar
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-               
+
 
             </div>
+        </section>
+        <section id="hosting">
+            <div class="container">
+                <h3>Hosting. Lo más importante </h3>
+                <p>El hosting es la pieza fundamental de un sitio web. Un buen servicio de hosting garantiza la
+                    seguridad y confianza que el usuario necesita en su sitio. Yo trabajo con Siteground, el mejor
+                    hosting Wordpress del mundo valorado por las mejores empresas del planeta
+                </p>
+                <div class="container-information">
+                    <div class="information left">
+                        <ul>
+                            <h4>¿Necesito tener el mejor hosting del mundo?</h4>
+
+                            <p>Para cualquier sitio web necesitas el mejor hosting del mundo. A solo US$ 60 por año
+                                Siteground te ofrece:</p>
+                            </li>
+                            <li class="icon"><img src="images/icons/check.png" alt="">Dominio gratuito
+                            </li>
+                            <li class="icon"><img src="images/icons/check.png" alt="">Soporte 24/7 de primer nivel
+                            </li>
+                            <li class="icon"><img src="images/icons/check.png" alt="">Cuentas ilimitadas de e-mails
+                            </li>
+                            <li class="icon"><img src="images/icons/check.png" alt="">Backups diarios
+                            </li>
+                            <li class="icon"><img src="images/icons/check.png" alt="">10 GB de espacio
+                            </li>
+                            <li class="icon"><img src="images/icons/check.png" alt="">Almacenamiento SSD. Tu web a la
+                                máxima velocidad
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="information right">
+                        <ul>
+                            <h4>¿Que pasa si tengo un hosting de mala calidad?
+                            </h4>
+                            <p>Hay que tratar de no dejarse llevar por lo barato. Contratar un hosting de mala calidad
+                                puede provocar:
+                            </p>
+                            <li class="icon"><img src="images/icons/danger.png" alt="">Carga lenta del sitio web
+                            </li>
+                            <li class="icon"><img src="images/icons/danger.png" alt="">Error 500 del servidor al
+                                ingresar al sitio
+                            </li>
+                            <li class="icon"><img src="images/icons/danger.png" alt="">Mal posicionamiento en Google
+                            </li>
+                            <li class="icon"><img src="images/icons/danger.png" alt="">Soporte insuficiente
+                            </li>
+                            <li class="icon"><img src="images/icons/danger.png" alt="">Vulnerabilidad frente a hackers
+                            </li>
+                            <li class="icon"><img src="images/icons/danger.png" alt="">No brinda el certificado de
+                                seguridad SSL 
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="blog">
+            <div class="container">
+                <h3>Blog</h3>
+                <div class="container-blog">
+                    <div class="blog-single">
+                        <div class="blog-img">
+                            <a href=""><img src="images/blog1.jpg"></a>
+                        </div>
+                        <div class="blog-text">
+                            <h4>No alcanza con tener solamente una página web
+                            </h4>
+                            <p>¿Querés aprender cuales son las herramientas que usan las mejores marcas para generar
+                                tráfico?
+                            </p>
+                            <a class="btn-primary" href="">Leer más</a>
+
+                        </div>
+                    </div>
+                    <div class="blog-single">
+                            <div class="blog-img">
+                                <a href=""><img  class="remarketing" src="images/blog2.jpg"></a>
+                            </div>
+                            <div class="blog-text">
+                                <h4>¿Qué es el remarketing y como utilizarlo?
+                                </h4>
+                                <p>El remarketing es una de las técnicas mas utlizadas por las mejores companías! ¿Querés saber de que se trata?
+                                </p>
+                                <a class="btn-primary" href="">Leer más</a>
+    
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta">
+            <div class="container">
+                <h3>¿Qué esperas para tener tu página web?
+                    </h3>
+                    <a class="btn-primary" href="#">Hablemos</a>
+            </div>
+        </section>
+        <section id="contacto">
+        <?php
+        if(@$_GET['i']=='ok'){?>
+        <h3>La consulta se envio correctamente. Nos contactaremos contigo a la brevedad</h3>
+<?php
+        }else{
+            ?>
+            <div class="container">
+            <h3 class="title-contacto">Contacto</h3>
+            
+             <form action="mienvio_formulario.php" class="form" method="post" enctype="multipart/form-data">
+                <input type="text" name="nombre" value="" placeholder="Nombre" id="txtnombre"> 
+                    <input type="email" name="email" value="" placeholder="Email" id="txtemail"> 
+                    <textarea placeholder="Mensaje" id="txtmensaje" name="consulta" id="" cols="30" rows="10" class="message"></textarea>       
+                    <div id="mensaje4" class="sucess"><i class="fa fa-check"></i>Mensaje Enviado</div>     
+                         <input type="submit" id="btn-enviar"  value="PEDIR PRESUPUESTO">
+                                </form>
+            
+        <?php }?>
+            <div class="contacto-info">
+            <div class="mail"><img src="images/mail-icon.png" alt="">luis.ifh12@gmail.com</div>
+            <div class="whatsapp"><img src="images/whatsapp-icon.png" alt="">+51 985103735</div>
+            </div>
+                </div>
+
         </section>
     </main>
 
