@@ -12,29 +12,33 @@
 
     <link href="js/ow/owl.carousel.min.css" rel="stylesheet">
     <link href="js/ow/owl.theme.default.min.css" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
 
-    <title>Document</title>
+
+    <title>Luis Ismael - Desarrollador Frontend</title>
 
 </head>
 
 <body>
 
     <header>
+    <div class="menu">
         <div class="container container-menu">
             <p class="logo">LUIS ISMAEL</p>
             <nav>
                 <ul>
-                    <li>Sobre mi</li>
-                    <li>Servicios</li>
-                    <li>Mis Trabajos</li>
-                    <li>¿Porque trabajar conmigo?</li>
-                    <li>Blog</li>
-                    <li>Contacto</li>
+                    <li><a class="nav-links" href="#about">Sobre mi</a></li>
+                    <li><a class="nav-links" href="#services">Servicios</a></li>
+                    <li><a class="nav-links" href="#works">Mis Trabajos</a></li>
+                    <li><a class="nav-links" href="#trabajar-conmigo">¿Porque trabajar conmigo?</a></li>
+                    <li><a class="nav-links" href="#blog">Blog</a></li>
+                    <li><a class="nav-links" href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
         </div>
+
+      </div>
         <div class="container">
             <div class="container-title">
                 <div class="title">
@@ -48,6 +52,7 @@
 
 
     </header>
+    <a id="whatsapp" href="https://api.whatsapp.com/send?phone=51985103735"><img src="images/icons/whatsapp.png" alt=""></a>
     <main>
         <section id="about">
             <div class="container">
@@ -58,7 +63,7 @@
                     <div class="about-image">
                         <img src="images/about.png" alt="">
                     </div>
-                    <div class="about-text">
+                    <div class="about-text wow bounceInUp">
 
                         <p>Mi nombre es Luis Ismael soy programador frontend. Tengo la experiencia en
                             desarrollo de sitios web para pequeñas y medianas empresas y elaboracion de mailing.</p>
@@ -345,9 +350,17 @@
             </div>
         </section>
         <section id="contacto">
+       
         <?php
         if(@$_GET['i']=='ok'){?>
-        <h3>La consulta se envio correctamente. Nos contactaremos contigo a la brevedad</h3>
+         <h3 style="text-align: center;
+    width: 54%;
+    margin: 0 auto;
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 50px;">La consulta se envio correctamente. Nos contactaremos contigo a la brevedad</h3>
+    <a class="btn-primary" style="display:block;
+    margin: 0 auto;     text-align: center;" href="index.php#contacto">Otra Consulta</a>
 <?php
         }else{
             ?>
@@ -355,11 +368,11 @@
             <h3 class="title-contacto">Contacto</h3>
             
              <form action="mienvio_formulario.php" class="form" method="post" enctype="multipart/form-data">
-                <input type="text" name="nombre" value="" placeholder="Nombre" id="txtnombre"> 
-                    <input type="email" name="email" value="" placeholder="Email" id="txtemail"> 
-                    <textarea placeholder="Mensaje" id="txtmensaje" name="consulta" id="" cols="30" rows="10" class="message"></textarea>       
+                <input type="text" name="nombre" value="" placeholder="Nombre" id="itNombre"> 
+                    <input type="email" name="email" value="" placeholder="Email" id="itMail"> 
+                    <textarea placeholder="Mensaje" id="itAsunto" name="consulta" id="" cols="30" rows="10" class="message"></textarea>       
                     <div id="mensaje4" class="sucess"><i class="fa fa-check"></i>Mensaje Enviado</div>     
-                         <input type="submit" id="btn-enviar"  value="PEDIR PRESUPUESTO">
+                         <input type="submit" id="bEnviar"  value="PEDIR PRESUPUESTO">
                                 </form>
             
         <?php }?>
@@ -370,14 +383,100 @@
                 </div>
 
         </section>
+
+        
     </main>
+<footer>
+            <section id="social-media">
+                <div class="container">
+                    <div class="social">
+                    <a href=""><img src="images/icons/facebook.png" alt=""></a>
+                    <a href=""><img src="images/icons/linkedin.png" alt=""></a>
+                    <a href=""><img src="images/icons/github.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="parrafo">
+                <p>2019 Luis Ismael | Desarrollador Frontend Perú. Todos los derechos reservados</p>
+                </div>
+            </section>
+</footer>
 
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="js/ow/owl.carousel.min.js"></script>
-    <script src="js/javascript.js"></script>
+   <script>
+   
+        $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:3000,
+            margin: 10,
+            nav: true,
+            merge:true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+    });
+   
+   
+   </script>
+
+<script>
+
+$(document).ready(function(){
+
+$('#bEnviar').click(function() {
+  var nombre = $('#itNombre').val();
+  var correo = $('#itMail').val();
+  var asunto = $('#itAsunto').val();
+
+
+  if (nombre == "")  {
+    $('#itNombre').css('border-bottom', '2px solid red');
+    return false;
+  } else {
+    $('#itNombre').css('border-bottom', '1px solid #90CAF9');
+
+  if (correo == "") {
+    $('#itMail').css('border-bottom', '2px solid red');
+    return false;
+  } else {
+    $('#itMail').css('border-bottom', '1px solid #90CAF9');
+
+  if (asunto == "") {
+    $('#itAsunto').css('border-bottom', '2px solid red');
+    return false;
+  }
+}
+  $('#bEnviar').fadeOut();
+  $('#mensaje4').fadeIn();
+}
+
+})
+
+})
+
+
+</script>
+
+<script src="js/scriptt.js"></script>
+<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 
 </body>
 

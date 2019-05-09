@@ -1,3 +1,11 @@
+html{
+
+scroll-behavior: smooth;
+
+}
+
+
+
 :root{
 --color-primary:rgb(9, 196, 171);
 }
@@ -25,6 +33,16 @@ header{
     ,rgba(10, 32, 235, 0.527)), 
     url(../images/background-home.jpg);
     background-size: cover;
+    overflow:hidden;
+
+}
+
+
+.menu{
+
+    position: fixed;
+    width: 100%;
+    transition: .3s;
 }
 .container-menu{
     display: flex;
@@ -34,7 +52,7 @@ header{
     .logo{
         color: white;
         font-family: 'Righteous', cursive;
-        font-size:30px; 
+        font-size:25px; 
     }
 
     
@@ -51,13 +69,13 @@ header{
     
     nav ul li{
         margin-left: 40px;
-        color: #fff;
+     
         font-weight: 500;
         font-size: 19px;
     }
     
     .container-title{
-    margin: 23vh 0;
+    margin: 35vh 0;
     display:flex;
     justify-content: center;
     color: white;
@@ -332,6 +350,10 @@ display: inline-block;
 text-align: center;
 margin-top: 20px;
 }
+#contacto{
+
+    margin-bottom: 50px;
+}
 
 .title-contacto{
     font-size: 2.8em;
@@ -405,19 +427,66 @@ display: none;
 
     display: flex;
     justify-content: space-around;
-    margin-top: 2%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    
 }
 .contacto-info img{
     vertical-align: middle;
     padding-right: 10px;
     width: 19%;
 }
-#contacto h3{
-
+.confirm{
     text-align: center;
     width: 54%;
     margin: 0 auto;
     font-size: 2em;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+footer{
+
+    background-color: #2f2f2f;
+    
+    text-align: center;
+
+}
+footer .container{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.parrafo{
+color: white;
+    padding: 15px 0px;
+}
+
+.social{
+width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+footer img {
+    transform: rotate(0);
+    transition: .4s;
+}
+footer img:hover {
+    transform: rotate(360deg);
+    transition: .4s;
+}
+#whatsapp{
+position: fixed;
+
+}
+.shadow{
+box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1);
+}
+nav ul li a{
+color: white;
+outline: none;
+text-decoration: none;
+
 }
