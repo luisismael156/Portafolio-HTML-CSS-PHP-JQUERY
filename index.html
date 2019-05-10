@@ -2,12 +2,13 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins|Righteous" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 
 
     <link href="js/ow/owl.carousel.min.css" rel="stylesheet">
@@ -21,11 +22,13 @@
 </head>
 
 <body>
+<div class="fakeLoader"></div>
 
     <header>
     <div class="menu">
         <div class="container container-menu">
             <p class="logo">LUIS ISMAEL</p>
+            <img src="images/menu.png" class="menu-icon" alt="">
             <nav>
                 <ul>
                     <li><a class="nav-links" href="#about">Sobre mi</a></li>
@@ -44,7 +47,7 @@
                 <div class="title">
                     <h1>Luis Ismael Flores Huamán</h1>
                     <h2>Desarrollador Frontend</h2>
-                    <a class="btn-primary" href="">Ver mis Trabajos</a>
+                    <a class="btn-primary" href="#works">Ver mis Trabajos</a>
                 </div>
             </div>
 
@@ -58,12 +61,12 @@
             <div class="container">
                 <h1>Sobre mi</h1>
 
-                <div class="contain">
+                <div class="contain-about">
 
-                    <div class="about-image">
+                    <div class="about-image wow slideInLeft">
                         <img src="images/about.png" alt="">
                     </div>
-                    <div class="about-text wow bounceInUp">
+                    <div class="about-text wow slideInRight">
 
                         <p>Mi nombre es Luis Ismael soy programador frontend. Tengo la experiencia en
                             desarrollo de sitios web para pequeñas y medianas empresas y elaboracion de mailing.</p>
@@ -83,7 +86,7 @@
             <div class="container">
                 <h3>Servicios</h3>
                 <div class="container-services">
-                    <div class="services violet">
+                    <div class="services violet wow fadeInUp">
                         <h4>Diseño Web</h4>
                         <p>Páginas web atractivas y funcionales con el objetivo de satisfacer todas tus expectativas. La
                             importancia del diseño es fundamental para tener éxito y atraer a tus visitantes. También lo
@@ -92,7 +95,7 @@
                         <div class="icon"><img src="images/icons/monitor.png"></div>
                         <img src="images/waves.png" class="waves">
                     </div>
-                    <div class="services blue">
+                    <div class="services blue wow fadeInUp">
                         <h4>Responsive Design</h4>
                         <p>Hoy en día las páginas web se ven en multitud de dispositivos como tablets, celulares, libros
                             electrónicos, notebooks, PCs, etc. La tecnología móvil es el presente y el futuro. Para eso
@@ -101,7 +104,7 @@
                         <div class="icon"><img src="images/icons/celular.png"></div>
                         <img src="images/waves.png" class="waves">
                     </div>
-                    <div class="services violet">
+                    <div class="services violet wow fadeInUp">
                         <h4>SEO</h4>
                         <p>Al crear sitios web, tengo muy en cuenta la optimización de motores de búsqueda (SEO). Llevo
                             a cabo prácticas de SEO estándar en cada página del sitio web, lo que permite que tu sitio
@@ -111,7 +114,7 @@
                         <div class="icon"><img src="images/icons/seo.png"></div>
                         <img src="images/waves.png" class="waves">
                     </div>
-                    <div class="services blue">
+                    <div class="services blue wow fadeInUp">
                         <h4>Autoadministrable</h4>
                         <p>Es importante que puedas administrar tu página web vos mismo, desde cualquier lugar y en
                             cualquier momento. Desarrollo sistemas de gestión de contenido que te permiten ver los datos
@@ -120,7 +123,7 @@
                         <div class="icon"><img src="images/icons/wordpress.png"></div>
                         <img src="images/waves.png" class="waves">
                     </div>
-                    <div class="services violet">
+                    <div class="services violet wow fadeInUp">
                         <h4>Manteminiento</h4>
                         <p>Podés contactarme si necesitas actualizar tu página web, agregar nuevas secciones o cualquier
                             cambio que necesites. Esto es perfecto para los sitios web de pequeñas empresas, donde no se
@@ -129,7 +132,7 @@
                         <div class="icon"><img src="images/icons/mante.png"></div>
                         <img src="images/waves.png" class="waves">
                     </div>
-                    <div class="services blue">
+                    <div class="services blue wow fadeInUp">
                         <h4>Marketing Digital</h4>
                         <p>Utilizo las herramientas mas importantes como Google Adwords y Google Analytics, para que tu
                             negocio aparezca en los resultados de búsqueda de Google justo cuando alguien te necesita y
@@ -141,36 +144,36 @@
                 </div>
             </div>
         </section>
-        <section id="works">
+        <section id="works" class="hi">
             <div class="container">
                 <h3>Mis Trabajos</h3>
 
                 <div class="container-works owl-carousel owl-theme">
-                    <div class="work item">
+                    <div class="work wow slideInRight item">
                         <a href="#"> <img src="images/images-works/Mockup imac.png">
                         </a>
                         <p>Example 1</p>
 
                     </div>
-                    <div class="work item">
+                    <div class="work wow slideInRight item">
                         <a href="#"> <img src="images/images-works/cookiee.png">
                         </a>
                         <p>Example 2</p>
 
                     </div>
-                    <div class="work item">
+                    <div class="work wow slideInRight item">
                         <a href="#"> <img src="images/images-works/hamoria-mockup.png">
                         </a>
                         <p>Example 3</p>
 
                     </div>
-                    <div class="work item">
+                    <div class="work wow slideInRight item">
                         <a href="#"> <img src="images/images-works/miumis-mockup.png">
                         </a>
                         <p>Example 4</p>
 
                     </div>
-                    <div class="work item">
+                    <div class="work wow slideInRight item">
                         <a href="#"> <img src="images/images-works/sofia-mockup.png">
                         </a>
                         <p>Example 5</p>
@@ -186,7 +189,7 @@
             <div class="container">
                 <h3>¿Por qué trabajar conmigo?</h3>
                 <div class="container-working">
-                    <div class="item">
+                    <div class="item wow fadeInUp">
                         <ul>
                             <li><img src="images/velocidad.png"></li>
                             <h4>Velocidad</h4>
@@ -197,7 +200,7 @@
 
                         </ul>
                     </div>
-                    <div class="item">
+                    <div class="item wow fadeInUp">
                         <ul>
                             <li><img src="images/mantenimiento.png"></li>
                             <h4>Asesoramiento</h4>
@@ -207,7 +210,7 @@
 
                         </ul>
                     </div>
-                    <div class="item">
+                    <div class="item wow fadeInUp">
                         <ul>
                             <li><img src="images/mobile-icon.png"></li>
                             <h4>Mobile Priority </h4>
@@ -225,10 +228,10 @@
                 <h3>Wordpress. Lo mejor.</h3>
                 <p>Wordpress es la mejor plataforma del mundo para construir tu sitio web</p>
                 <div class="container-wordpress">
-                    <div class="wordpress-img">
+                    <div class="wordpress-img wow slideInLeft">
                         <img src="images/wordpress2.png" alt="">
                     </div>
-                    <div class="wordpress-text">
+                    <div class="wordpress-text wow slideInRight">
                         <ul>
                             <li>Wordpress es 100% personalizado
                             </li>
@@ -257,7 +260,7 @@
                     hosting Wordpress del mundo valorado por las mejores empresas del planeta
                 </p>
                 <div class="container-information">
-                    <div class="information left">
+                    <div class="information left wow slideInLeft">
                         <ul>
                             <h4>¿Necesito tener el mejor hosting del mundo?</h4>
 
@@ -279,7 +282,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="information right">
+                    <div class="information right wow slideInRight">
                         <ul>
                             <h4>¿Que pasa si tengo un hosting de mala calidad?
                             </h4>
@@ -311,7 +314,7 @@
             <div class="container">
                 <h3>Blog</h3>
                 <div class="container-blog">
-                    <div class="blog-single">
+                    <div class="blog-single wow slideInLeft">
                         <div class="blog-img">
                             <a href=""><img src="images/blog1.jpg"></a>
                         </div>
@@ -325,11 +328,11 @@
 
                         </div>
                     </div>
-                    <div class="blog-single">
-                            <div class="blog-img">
+                    <div class="blog-single wow slideInRight">
+                            <div class="blog-img ">
                                 <a href=""><img  class="remarketing" src="images/blog2.jpg"></a>
                             </div>
-                            <div class="blog-text">
+                            <div class="blog-text ">
                                 <h4>¿Qué es el remarketing y como utilizarlo?
                                 </h4>
                                 <p>El remarketing es una de las técnicas mas utlizadas por las mejores companías! ¿Querés saber de que se trata?
@@ -477,6 +480,23 @@ $('#bEnviar').click(function() {
               <script>
               new WOW().init();
               </script>
+              <script src="js/fakeLoader.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".fakeloader").fakeLoader({
+
+timeToHide:2200,
+bgColor:"#0387d1",
+spinner:"spinner2"
+
+    });
+
+
+
+});
+
+</script>
+
 
 </body>
 
